@@ -54,6 +54,18 @@ h1 {
     border-bottom: solid #3a3a3a;
 }
 
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    padding: inherit;
+    box-shadow: inherit;
+    display: none;
+}
+
+
 /* Main */
 main {
     background-color: lightblue;
