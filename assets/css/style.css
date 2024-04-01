@@ -254,15 +254,15 @@ main {
         width: 100%
     }
 
-    #benefits-physical > div,
-    #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
-    }    
+    }
 }
 
 /* Media query: laptops and larger (>=992px) */
@@ -285,7 +285,7 @@ main {
     }
 
     /* ensure that the divs share surplus space equally */
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -303,11 +303,11 @@ main {
     }
 
     /* align side divs closest to the central image div */
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 }
