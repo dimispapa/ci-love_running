@@ -36,7 +36,37 @@
     </header>
 
     <!-- Main content -->
-    <main>Content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <label for="first_name" id="first_name_lbl">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name" id="last_name_lbl">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address" id="email_address_lbl">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road" id="road_lbl">Road</label>
+                        <input type="radio" name="running_preference" id="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail" id="trail_lbl">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" required>
+                    </div>
+                    <div>
+                        <label for="both" id="both_lbl">Both</label>
+                        <input type="radio" name="running_preference" id="both" required>
+                    </div>
+                </div>
+                <input type="submit" value="Let's Run!" class="join-button">
+            </form>
+        </section>
+    </main>
 
     <!-- Footer of page-->
     <footer>
@@ -49,19 +79,20 @@
 
             <li>
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i>
+                    aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
 
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i>
+                    aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i>
                 </a>
             </li>
 
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i>
+                    aria-label="Visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i>
                 </a>
             </li>
         </ul>
