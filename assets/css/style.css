@@ -211,8 +211,9 @@ main {
     padding: 20px 10% 0;
 }
 
-#signup>h2 {
-    color: #fafafa
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 #signup-form {
